@@ -163,3 +163,8 @@ footer {
   text-overflow: ellipsis;
   min-height: 3.9em;
 }
+
+section {
+  scroll-margin-top: 150px;
+}
+

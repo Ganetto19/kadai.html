@@ -16,7 +16,7 @@
     <link rel="icon" href="favicon.png">
 </head>
 
-<body data-bs-spy="scroll" data-bs-target="#terms-nav" data-bs-offset="100" tabindex="0">
+<body data-bs-spy="scroll" data-bs-target="#terms-nav" data-bs-offset="150" tabindex="0">
     <!-- ナビゲーションバー -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
@@ -67,7 +67,7 @@
         <div class="row">
 
             <!-- 左ナビ（ScrollSpy） -->
-            <nav id="terms-nav" class="col-md-3 mb-4">
+            <nav id="terms-nav" class="col-md-3 mb-4 d-none d-md-block">
                 <div class="list-group position-sticky top-0">
                     <a class="list-group-item list-group-item-action" href="#section1">第1条（目的）</a>
                     <a class="list-group-item list-group-item-action" href="#section2">第2条（禁止事項）</a>
@@ -85,6 +85,16 @@
                         本規約は、AniListo（以下「本サービス」）の利用条件を定めるものです。
                         ユーザーは、本規約に同意の上で本サービスを利用するものとします。
                     </p>
+                    <p>
+                        本サービスは、アニメ作品に関する情報の閲覧、評価、共有を目的として提供されています。
+                        ユーザーは、自己の責任において本サービスを利用するものとし、
+                        本サービスの利用によって生じるいかなる結果についても、運営は責任を負わないものとします。
+                    </p>
+                    <p>
+                        また、本規約は必要に応じて改定されることがあり、
+                        改定後も本サービスを利用した場合は、改定内容に同意したものとみなします。
+                    </p>
+
                 </section>
 
                 <section id="section2" class="mb-5">
@@ -95,6 +105,15 @@
                         <li>スパム行為・不正アクセス</li>
                         <li>サービス運営を妨害する行為</li>
                     </ul>
+                    <p>
+                        上記に限らず、運営が不適切と判断した行為については、
+                        事前の通知なく投稿の削除やアカウント停止等の措置を行う場合があります。
+                    </p>
+                    <p>
+                        特に、他のユーザーに不快感を与える投稿や、
+                        意図的に誤った情報を拡散する行為は禁止されています。
+                    </p>
+
                 </section>
 
                 <section id="section3" class="mb-5">
@@ -103,6 +122,16 @@
                         本サービス内の文章・画像・動画などの著作権は、
                         運営者または正当な権利者に帰属します。
                     </p>
+                    <p>
+                        ユーザーは、私的利用の範囲を超えて、
+                        無断でコンテンツを複製、転載、配布することはできません。
+                    </p>
+                    <p>
+                        ユーザーが投稿したコンテンツについては、
+                        本サービスの運営および広報目的に限り、
+                        無償で利用できるものとします。
+                    </p>
+
                 </section>
 
                 <section id="section4" class="mb-5">
@@ -111,6 +140,15 @@
                         本サービスの利用によって生じた損害について、
                         運営者は一切の責任を負いません。
                     </p>
+                    <p>
+                        本サービスは、予告なく内容の変更や提供の中断を行うことがあります。
+                        これにより生じた損害についても、運営者は責任を負わないものとします。
+                    </p>
+                    <p>
+                        また、外部サイトへのリンクについて、
+                        リンク先の内容や安全性については一切保証しません。
+                    </p>
+
                 </section>
 
             </div>
@@ -118,56 +156,53 @@
     </div>
     <!-- フッター -->
     <footer class="py-4 bg-dark text-light">
-  <div class="container">
-    <div class="row">
+        <div class="container">
+            <div class="row">
 
-      <!-- ロゴ -->
-      <div class="col-md-4 mb-3">
-        <h5 class="fw-bold mb-3">
-          <i class="bi bi-film"></i> AniListo
-        </h5>
-        <p>あなたの好きなアニメを見つけて、共有しよう。</p>
-      </div>
+                <!-- ロゴ -->
+                <div class="col-md-4 mb-3">
+                    <h5 class="fw-bold mb-3">
+                        <i class="bi bi-film"></i> AniListo
+                    </h5>
+                    <p>あなたの好きなアニメを見つけて、共有しよう。</p>
+                </div>
 
-      <!-- サイト情報 -->
-      <div class="col-md-2 mb-3">
-        <h6 class="fw-bold mb-3">サイト情報</h6>
-        <ul class="list-unstyled">
-          <li><a href="anime-About.html" class="text-light text-decoration-none">About</a></li>
-          <li><a href="anime-terms.html" class="text-light text-decoration-none">利用規約</a></li>
-          <li><a href="anime-privacy.html" class="text-light text-decoration-none">プライバシーポリシー</a></li>
-        </ul>
-      </div>
+                <div class="col-md-2 mb-3">
+                    <h6 class="fw-bold mb-3">サイト情報</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="anime-About.html" class="text-light text-decoration-none">About</a></li>
+                        <li><a href="anime-terms.html" class="text-light text-decoration-none">利用規約</a></li>
+                        <li><a href="anime-privacy.html" class="text-light text-decoration-none">プライバシーポリシー</a></li>
+                    </ul>
+                </div>
 
-      <!-- サポート -->
-      <div class="col-md-2 mb-3">
-        <h6 class="fw-bold mb-3">サポート</h6>
-        <ul class="list-unstyled">
-          <li><a href="anime-help.html" class="text-light text-decoration-none">ヘルプ</a></li>
-          <li><a href="anime-contact.html" class="text-light text-decoration-none">お問い合わせ</a></li>
-          <li><a href="anime-faq.html" class="text-light text-decoration-none">FAQ</a></li>
-        </ul>
-      </div>
+                <div class="col-md-2 mb-3">
+                    <h6 class="fw-bold mb-3">サポート</h6>
+                    <ul class="list-unstyled">
+                        <li><a href="anime-help.html" class="text-light text-decoration-none">ヘルプ</a></li>
+                        <li><a href="anime-contact.html" class="text-light text-decoration-none">お問い合わせ</a></li>
+                        <li><a href="anime-faq.html" class="text-light text-decoration-none">FAQ</a></li>
+                    </ul>
+                </div>
 
-      <!-- SNS -->
-      <div class="col-md-4 mb-3">
-        <h6 class="fw-bold mb-3">フォローする</h6>
-        <div class="d-flex gap-3">
-          <a href="#" class="text-light"><i class="bi bi-twitter fs-4"></i></a>
-          <a href="#" class="text-light"><i class="bi bi-instagram fs-4"></i></a>
-          <a href="#" class="text-light"><i class="bi bi-youtube fs-4"></i></a>
-          <a href="#" class="text-light"><i class="bi bi-discord fs-4"></i></a>
+                <div class="col-md-4 mb-3">
+                    <h6 class="fw-bold mb-3">フォローする</h6>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-light"><i class="bi bi-twitter fs-4"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-instagram fs-4"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-youtube fs-4"></i></a>
+                        <a href="#" class="text-light"><i class="bi bi-discord fs-4"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <hr class="border-light">
+            <p class="text-center text-light mb-0">
+                &copy; 2025 AniListo. All rights reserved.
+            </p>
         </div>
-      </div>
-
-    </div>
-
-    <hr class="border-light">
-    <p class="text-center text-light mb-0">
-      &copy; 2025 AniListo. All rights reserved.
-    </p>
-  </div>
-</footer>
+    </footer>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
